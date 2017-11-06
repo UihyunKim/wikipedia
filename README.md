@@ -1,3 +1,8 @@
-Wikipedia search function
+# wikipedia
+Search and view wikipedia
+* search
+* view result
 
-using html/css/javascript/jquery/...
+view on codepen
+https://codepen.io/UihyunKim/pen/BpjNJB
+
