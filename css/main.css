@@ -1,0 +1,92 @@
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+#bootstrap-overrides {
+  background-color: #555;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#search {}
+
+#search input[type="text"] {
+  background: url(http://www.bloggermint.com/demos/css3searchbox/search-dark.png) no-repeat 10px 6px #444;
+  border: 0 none;
+  font: bold 12px Arial, Helvetica, Sans-serif;
+  color: #777;
+  width: 150px;
+  padding: 6px 15px 6px 35px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 0.7s ease 0.3s;
+  -moz-transition: all 0.7s ease 0.3s;
+  -o-transition: all 0.7s ease 0.3s;
+  transition: all 0.7s ease 0.3s;
+}
+
+#search input[type="text"]:focus {
+  width: 300px;
+  outline: 0;
+}
+
+.searchResultList {
+  border: 0 none;
+  font: bold 12px Arial, Helvetica, Sans-serif;
+  color: #777;
+  padding: 6px 15px;
+  text-align: left;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#bootstrap-overrides a:hover {
+  text-decoration: none;
+}
+
+#bootstrap-overrides a:focus {
+  text-decoration: none;
+}
+
+
+.searchResultBoard {
+  text-align: left;
+}
+
+dt {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+dt:hover {
+  text-decoration: underline;
+}
+
+dd {
+  font-family: 'Open Sans', sans-serif;
+  color: Gainsboro;
+  font-size: 1.5em;
+}
+
+#bootstrap-overrides a {
+  color: white;
+}
+
+/*#wikiLogo {
+  float: left;
+  position: relative;
+  left: -40px;
+  margin-right: 0;
+  padding-right: 0;
+}*/
